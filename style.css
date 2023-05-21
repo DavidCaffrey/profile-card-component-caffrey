@@ -21,6 +21,38 @@ body {
     background-color: var(--dark-cyan);
 }
 
+.bg-top {
+    width: 10%;
+}
+
+.card {
+    width: 50%;
+    border-radius: 20px;
+    margin: 3rem auto;
+}
+
+.card-top-container {}
+
+.card-top {}
+
+.profile-img {}
+
+.card-bottom-container {
+    background-color: #fff;
+}
+
+.profile-name {}
+
+.profile-age {}
+
+.profile-loc {}
+
+.stats {}
+
+.numbers {}
+
+.stat-type {}
+
 .attribution {
     font-size: 11px;
     text-align: center;
