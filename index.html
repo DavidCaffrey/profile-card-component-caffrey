@@ -1,48 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Profile card component</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <img src="images/bg-pattern-top.svg" alt="" class="bg-top" />
     <div class="card">
-        <section class="card-top-container">
-            <img src="images/bg-pattern-card.svg" alt="" class="card-top" />
+      <section class="card-top-container">
+        <img src="images/bg-pattern-card.svg" alt="" class="card-top" />
+      </section>
+      <img
+        src="images/image-victor.jpg"
+        alt="picture of victor"
+        class="profile-img"
+      />
+      <section class="card-bottom-container">
+        <section class="profile-info-container">
+          <h1 class="profile-name">
+            Victor Crest <span class="profile-age">26</span>
+          </h1>
+          <p class="profile-loc">London</p>
         </section>
-        <img src="images/image-victor.jpg" alt="picture of victor" class="profile-img" />
-        <section class="card-bottom-container">
-            <h1 class="profile-name">
-                Victor Crest <span class="profile-age">26</span>
-            </h1>
-            <p class="profile-loc">London</p>
-            <section class="stats">
-                <h2 class="numbers">80K</h2>
-                <p class="stat-type">Followers</p>
-            </section>
-            <section class="stats">
-                <h2 class="numbers">803K</h2>
-                <p class="stat-type">Likes</p>
-            </section>
-            <section class="stats">
-                <h2 class="numbers">1.4K</h2>
-                <p class="stat-type">Photos</p>
-            </section>
+
+        <section class="stats">
+          <h2 class="numbers">80K</h2>
+          <p class="stat-type">Followers</p>
         </section>
+        <section class="stats">
+          <h2 class="numbers">803K</h2>
+          <p class="stat-type">Likes</p>
+        </section>
+        <section class="stats">
+          <h2 class="numbers">1.4K</h2>
+          <p class="stat-type">Photos</p>
+        </section>
+      </section>
     </div>
     <img src="images/bg-pattern-bottom.svg" alt="" class="bg-bottom" />
     <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
-</body>
-
+  </body>
 </html>

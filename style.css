@@ -1,63 +1,95 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
 :root {
-    /* Colors */
-    /* Primary */
-    --dark-cyan: hsl(185, 75%, 39%);
-    --v-dark-blue: hsl(229, 23%, 23%);
-    --dark-grey-blue: hsl(227, 10%, 46%);
-    /* Neutral */
-    --dark-grey: hsl(0, 0%, 59%);
+  /* Colors */
+  /* Primary */
+  --dark-cyan: hsl(185, 75%, 39%);
+  --v-dark-blue: hsl(229, 23%, 23%);
+  --dark-grey-blue: hsl(227, 10%, 46%);
+  /* Neutral */
+  --dark-grey: hsl(0, 0%, 59%);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 18px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
 }
 
 body {
-    font-family: "Kumbh Sans", sans-serif;
-    background-color: var(--dark-cyan);
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: var(--dark-cyan);
 }
 
 .bg-top {
-    width: 10%;
+  width: 10%;
 }
 
 .card {
-    width: 50%;
-    border-radius: 20px;
-    margin: 3rem auto;
+  width: 40%;
+  border-radius: 20px;
+  margin: 3rem auto;
+  position: relative;
 }
 
-.card-top-container {}
+.card-top-container {
+  padding-bottom: 0;
+}
 
-.card-top {}
+.card-top {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
-.profile-img {}
+.profile-img {
+  border-radius: 50%;
+  position: absolute;
+}
 
 .card-bottom-container {
-    background-color: #fff;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
-.profile-name {}
+.profile-info-container {
+  grid-column: 1/4;
+}
 
-.profile-age {}
+.profile-name {
+  text-align: center;
+}
 
-.profile-loc {}
+.profile-age {
+  text-align: center;
+}
 
-.stats {}
+.profile-loc {
+  text-align: center;
+}
 
-.numbers {}
+.stats {
+  text-align: center;
+}
 
-.stat-type {}
+.numbers {
+  text-align: center;
+}
+
+.stat-type {
+}
+
+.bg-bottom {
+  width: 10%;
+}
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
