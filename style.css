@@ -33,6 +33,8 @@ body {
   width: 90%;
   margin: 3rem auto;
   position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 15px 15px 0 0;
 }
 
 .card-top-container {
@@ -48,7 +50,7 @@ body {
 
 .profile-img {
   border-radius: 50%;
-  border: 8px solid #fff;
+  border: 6px solid #fff;
   position: absolute;
   left: 30%;
   top: 20%;
@@ -59,7 +61,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  padding-top: 3rem;
+  padding-top: 4rem;
   border-radius: 0 0 15px 15px;
 }
 
@@ -67,11 +69,11 @@ body {
   grid-column: 1/4;
   padding-bottom: 1rem;
   border-bottom: 0.5px solid var(--dark-grey);
-  margin-bottom: 1rem;
 }
 
 .profile-name {
   text-align: center;
+  margin-bottom: 0.5rem;
 }
 
 .profile-age {
@@ -82,7 +84,9 @@ body {
 
 .profile-loc {
   text-align: center;
+  font-size: 0.75em;
   color: var(--dark-grey-blue);
+  margin-bottom: 0.5rem;
 }
 
 .stats {
