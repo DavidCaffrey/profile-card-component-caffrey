@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Profile card component</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <img src="images/bg-pattern-top.svg" alt="" class="bg-top" />
     <main>
-        <div class="bg-top">
-            <img src="images/bg-pattern-top.svg" alt="" srcset="">
-
+      <article class="card">
+        <div class="card-top-img-container">
+          <img src="images/bg-pattern-card.svg" alt="" class="card-top-img" />
         </div>
-        <article class="card">
-            <div class="card-top-bg">
-                <img src="images/bg-pattern-card.svg" alt="" srcset="">
-
-            </div>
-            <div>
-
-                <h1>Victor Crest 26</h1>
-                London 80K Followers 803K Likes 1.4K Photos
-            </div>
-        </article>
-        <div class="bg-bottom">
-            <img src="images/bg-pattern-bottom.svg" alt="" srcset="">
-
+        <div class="card-bottom-container">
+          <img src="images/image-victor.jpg" alt="" class="profile-img" />
         </div>
-
+      </article>
+      <div class="profile-head">
+        <h1>Victor Crest 26</h1>
+        <h3>London</h3>
+      </div>
+      <div class="stats-container">
+        <h2>80K</h2>
+        <p>Followers</p>
+      </div>
+      <div class="stats-container">
+        <h2>803K</h2>
+        <p>Likes</p>
+      </div>
+      <div class="stats-container">
+        <h2>1.4K</h2>
+        <p>Photos</p>
+      </div>
     </main>
-
+    <img src="images/bg-pattern-bottom.svg" alt="" class="bg-bottom" />
     Challenge by
-    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a
-      >. Coded by <a href="https://github.com/DavidCaffrey">David Caffrey</a>.
-    </div>
-</body>
-
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="https://github.com/DavidCaffrey">David Caffrey</a>.
+  </body>
 </html>

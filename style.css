@@ -16,42 +16,8 @@
   font-size: 1.1em;
 }
 
-*,
-*::before,
-*::after {
-  /* border: 1px solid red; */
-}
-
 body {
   background-color: var(--dark-cyan);
-}
-
-main {
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-
-.card {
-  position: relative;
-}
-
-.card-top-bg {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-.bg-top {
-  position: absolute;
-  left: -489px;
-  top: -489px;
-}
-
-.bg-bottom {
-  position: absolute;
-  right: -489px;
-  bottom: -489px;
 }
 
 .attribution {
