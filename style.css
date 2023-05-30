@@ -21,28 +21,45 @@ body {
   position: relative;
   height: 100vh;
   overflow: hidden;
+  color: var(--v-dark-blue);
 }
 
-main{
+main {
   width: 100%;
-  display:grid;
+  display: grid;
   align-items: center;
   justify-content: center;
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 
 /* card */
-.card{
-  background-color: red;
+
+.card {
+  border-radius: 10px;
 }
 
-.card-bottom-container{
-  background-color: yellow;
+.card-top-img-container {
+}
+
+.card-top-img {
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-bottom-container {
+  background-color: #fff;
   position: relative;
   padding-top: 6rem;
+  padding-bottom: 2rem;
+  height: 100%;
+  border-radius: 0 0 10px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
 }
 
-.profile-img{
+.profile-img {
   border-radius: 50%;
   border: 5px solid white;
   position: absolute;
@@ -50,19 +67,35 @@ main{
   top: -10%;
 }
 
+.profile-head {
+  grid-column: 1/4;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 0.65em;
+  text-align: center;
+}
+
+p {
+  font-size: 0.5em;
+  text-align: center;
+}
 
 /*  background SVG's */
 
-.bg-top{
+.bg-top {
   position: absolute;
   left: -489px;
-  top:-489px;
+  top: -489px;
 }
 
-.bg-bottom{
+.bg-bottom {
   position: absolute;
-  right:-489px;
-  bottom:-489px;
+  right: -489px;
+  bottom: -489px;
 }
 
 /* footer */
