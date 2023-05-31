@@ -17,7 +17,7 @@
 }
 
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   background-color: var(--dark-cyan);
   position: relative;
   height: 100vh;
@@ -37,10 +37,9 @@ main {
 
 .card {
   border-radius: 10px;
-  
-  box-shadow: -1px 3px 30px -6px rgba(0,0,0,0.44);
-  -webkit-box-shadow: -1px 3px 30px -6px rgba(0,0,0,0.44);
-  -moz-box-shadow: -1px 3px 30px -6px rgba(0,0,0,0.44);
+  box-shadow: -1px 3px 30px -6px rgba(0, 0, 0, 0.44);
+  -webkit-box-shadow: -1px 3px 30px -6px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 3px 30px -6px rgba(0, 0, 0, 0.44);
 }
 
 .card-top-img-container {
@@ -83,8 +82,11 @@ h3 {
   font-size: 0.65em;
   text-align: center;
 }
-.age,h3,p{
-  color:var(--dark-grey-blue);
+
+.age,
+h3,
+p {
+  color: var(--dark-grey-blue);
 }
 
 p {
@@ -94,19 +96,24 @@ p {
 
 /*  background SVG's */
 
-.bg-top {
+.bt-top-container {
   position: absolute;
-  /* left: -489px; */
-  left: -15%;
-  /* top: -489px; */
-  top:-75%;
+  left: -400px;
+  top: -400px;
 }
+
+/* .bg-top-container {
+  width: 100%;
+  background-color: crimson;
+  background: url(images/bg-pattern-top.svg);
+  background-size: cover;
+} */
 
 .bg-bottom {
   position: absolute;
   /* right: -489px;
   bottom: -489px; */
-  right:-15%;
+  right: -50%;
   bottom: -75%;
   z-index: -999;
 }
