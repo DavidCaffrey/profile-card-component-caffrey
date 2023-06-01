@@ -140,7 +140,8 @@ p {
     height: 985px;
     background: url(images/bg-pattern-top.svg);
     background-repeat: no-repeat;
-    background-position: top -350px left -380px;
+    background-position: top -350px left -250px;
+    /* background-position: top -90% left -90%; */
     z-index: -9999;
     position: absolute;
 }
@@ -150,9 +151,71 @@ p {
     height: 985px;
     background: url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: bottom -550px right -200px;
+    background-position: bottom -500px right -200px;
     z-index: -99;
     position: absolute;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .bg-top-container{
+    background-position: top -350px left -800px;
+  }
+  .bg-bottom-container{
+    background-position: bottom -500px right -700px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .bg-top-container{
+    background-position: top -350px left -700px;
+  }
+  .bg-bottom-container{
+    background-position: bottom -500px right -600px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .bg-top-container{
+    background-position: top -350px left -600px;
+  }
+  .bg-bottom-container{
+    background-position: bottom -500px right -500px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .bg-top-container{
+    background-position: top -350px left -500px;
+  }
+  .bg-bottom-container{
+    background-position: bottom -500px right -400px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .bg-top-container{
+    background-position: top -350px left -400px;
+  }
+  .bg-bottom-container{
+    background-position: bottom -500px right -300px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1440px) {
+  .bg-top-container{
+    background-position: top -350px left -300px;
+  }
+  .bg-bottom-container{
+    background-position: bottom -500px right -200px;
+  }
 }
 
 
